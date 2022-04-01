@@ -1,0 +1,134 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   
+   
+}
+body{
+   margin: 8px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-self: center;
+   align-items: center;
+   font-family: Arial, Tahoma;
+    font-size: 13px;
+    color: Black;
+
+}
+.p-White{
+   color: white;
+   font-weight: bold;
+}
+.p-black-dark{
+
+ 
+   font-weight: bold;
+}
+.p-blue{
+   color: #0059A9;
+   font-weight: bold;
+}
+.counter{
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-self: center;
+   align-items: center;
+   width: 980px;
+  
+   
+}
+.log img{
+   width: 980px;
+}
+.informations-me{
+   background-color: rgb(0, 89, 169);
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   padding: 2px;
+}
+.name-page h1{
+   font-size: 1.4em;
+    padding: 10px 0 0 0px;
+}
+.sections{
+   display: flex;
+   width: 100%;
+   justify-content: flex-start;
+   flex-flow: column nowrap;
+}
+.Instructions ul{
+   list-style-type: disc;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 40px;
+}
+.Instructions hr{
+   border-top: 1px dashed lightsteelblue;
+}
+.time{
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.time *{
+   margin-right: 4px;
+}
+table{
+   width: 950px;
+   -webkit-border-horizontal-spacing: 0px;
+   -webkit-border-vertical-spacing: 0px;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 1px;
+   border-color: grey;
+vertical-align: middle;
+box-sizing: border-box;
+border-collapse: collapse;
+border-spacing: 2px;
+margin-bottom: 10px;
+
+}
+
+td{
+   border: 1px solid grey;
+   padding: 1px;
+   text-align: -webkit-center;
+}
+.addresses{
+   color: White;
+   background-color: #0059A9;
+   font-weight: bold;
+   text-align: -webkit-center;
+   border-color: grey;
+   border-collapse: collapse;
+   border-spacing: 2px;
+}
+.odd{
+   background-color: white;
+   color: #0059A9;
+}
+.even{
+   color: #0059A9;
+    background-color: LightSteelBlue;
+}
+a{
+   color: blue;
+   font-weight: bold;
+}
+.GPA{
+   display: flex;
+   flex-flow: row;
+   margin-top: 2px;
+  margin-bottom: 3px;
+   align-items: center;
+}
+.GPA a{
+   margin-left: 3px;
+}
