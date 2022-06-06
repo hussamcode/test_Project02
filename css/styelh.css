@@ -30,6 +30,7 @@ body{
 .p-blue{
    color: #0059A9;
    font-weight: bold;
+   cursor: pointer;
 }
 
 .counter{
